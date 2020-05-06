@@ -16,7 +16,7 @@ const connectDB = async () => {
     console.error(err.message);
     process.exit(1);
   }
-
+  // Same thing^^^
   //   mongoose
   //     .connect(db, {
   //       useNewUrlParser: true,
