@@ -49,7 +49,7 @@ export const Navbar = ({ title, icon }) => {
   );
 };
 
-Navbar.PropTypes = {
+Navbar.propTypes = {
   title: PropTypes.string.isRequired,
   icon: PropTypes.string,
 };
